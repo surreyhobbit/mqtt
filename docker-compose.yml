@@ -14,6 +14,8 @@ services:
     container_name: zigbee2mqtt
     restart: unless-stopped
     image: koenkk/zigbee2mqtt
+#    network_mode: host
+    privileged: true
     volumes:
       - ./zigbee2mqtt-data:/app/data
       - /run/udev:/run/udev:ro
@@ -22,4 +24,4 @@ services:
     environment:
       - TZ=Europe/Berlin
     devices:
-      - /dev/ttyAMA0:/dev/ttyAMA0
+      - /dev/ttyAMA0:/dev/ttyUSB0

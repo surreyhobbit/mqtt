@@ -1,0 +1,12 @@
+{
+    "0x2c1165fffe85f881": {
+        "color_mode": "xy",
+        "update": {
+            "state": "idle",
+            "installed_version": 268572245,
+            "latest_version": 268572245
+        },
+        "update_available": false,
+        "state": "OFF"
+    }
+}

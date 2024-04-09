@@ -21,5 +21,3 @@ services:
       - 8080:8080
     environment:
       - TZ=Europe/Berlin
-    devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0

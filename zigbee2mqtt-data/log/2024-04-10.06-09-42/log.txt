@@ -1,0 +1,20 @@
+info  2024-04-10 06:09:44: Logging to console and directory: '/app/data/log/2024-04-10.06-09-42' filename: log.txt
+info  2024-04-10 06:09:44: Starting Zigbee2MQTT version 1.36.1 (commit #ffc2ff1)
+info  2024-04-10 06:09:44: Starting zigbee-herdsman (0.40.3)
+info  2024-04-10 06:10:21: zigbee-herdsman started (resumed)
+info  2024-04-10 06:10:21: Coordinator firmware version: '{"meta":{"maintrel":1,"majorrel":2,"minorrel":7,"product":1,"revision":20240315,"transportrev":2},"type":"zStack3x0"}'
+info  2024-04-10 06:10:21: Currently 1 devices are joined:
+info  2024-04-10 06:10:21: LightPatio (0x2c1165fffe85f881): LED1924G9 - IKEA TRADFRI bulb E26/E27 CWS 800/806/810 lumen, dimmable, color, opal white (Router)
+warn  2024-04-10 06:10:21: `permit_join` set to  `true` in configuration.yaml.
+warn  2024-04-10 06:10:21: Allowing new devices to join.
+warn  2024-04-10 06:10:21: Set `permit_join` to `false` once you joined all devices.
+info  2024-04-10 06:10:21: Zigbee: allowing new devices to join.
+info  2024-04-10 06:10:21: Connecting to MQTT server at mqtt://mqtt
+info  2024-04-10 06:10:22: Connected to MQTT server
+info  2024-04-10 06:10:22: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"online"}'
+info  2024-04-10 06:10:25: Started frontend on port 8080
+info  2024-04-10 06:10:25: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload '{"color_mode":"xy","state":"ON","update":{"installed_version":268572245,"latest_version":268572245,"state":"idle"},"update_available":false}'
+info  2024-04-10 06:10:25: Zigbee2MQTT started!
+info  2024-04-10 06:35:22: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2024-04-10 06:35:22: Disconnecting from MQTT server
+info  2024-04-10 06:35:22: Stopping zigbee-herdsman...

@@ -6,6 +6,7 @@ serial:
   port: /dev/ttyUSB0
 frontend:
   port: 8080
+homeassistant: true
 advanced:
   network_key:
     - 43
@@ -24,7 +25,11 @@ advanced:
     - 111
     - 103
     - 144
-  homeassistant_legacy_entity_attributes: false
+  homeassistant:
+    discovery_topic: homeassistant
+    status_topic: hass/status
+    legacy_entity_attributes: true
+    legacy_triggers: true
   legacy_api: false
   legacy_availability_payload: false
 device_options:
@@ -33,3 +38,6 @@ devices:
   '0x2c1165fffe85f881':
     friendly_name: LightPatio
     description: IKEA Trader bulb on Patio, reset by 7 x off/on cycles
+  '0xa4c1386153591ed2':
+    friendly_name: LightLoungeStriplight
+    description: the miboxer strip light in the huge, press button to reset

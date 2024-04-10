@@ -40,3 +40,8 @@ info  2024-04-10 00:00:39: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload
 info  2024-04-10 00:00:41: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload '{"color_mode":"xy","linkquality":47,"state":"ON","update":{"installed_version":268572245,"latest_version":268572245,"state":"idle"},"update_available":false}'
 info  2024-04-10 00:01:33: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload '{"color_mode":"xy","linkquality":58,"state":"OFF","update":{"installed_version":268572245,"latest_version":268572245,"state":"idle"},"update_available":false}'
 info  2024-04-10 00:02:07: MQTT publish: topic 'zigbee2mqtt/bridge/response/device/generate_external_definition', payload '{"data":{"id":"0x2c1165fffe85f881","source":"const {identify, light} = require('zigbee-herdsman-converters/lib/modernExtend');\n\nconst definition = {\n    zigbeeModel: ['TRADFRI bulb E27 CWS 806lm'],\n    model: 'TRADFRI bulb E27 CWS 806lm',\n    vendor: 'IKEA of Sweden',\n    description: 'Automatically generated definition',\n    extend: [identify(), light({\"colorTemp\":{\"range\":[250,454]},\"color\":{\"modes\":[\"xy\",\"hs\"],\"enhancedHue\":true}})],\n    meta: {},\n};\n\nmodule.exports = definition;"},"status":"ok","transaction":"a32dr-4"}'
+info  2024-04-10 00:07:14: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2024-04-10 00:07:14: Disconnecting from MQTT server
+info  2024-04-10 00:07:14: Stopping zigbee-herdsman...
+info  2024-04-10 00:07:27: Stopped zigbee-herdsman
+info  2024-04-10 00:07:27: Stopped Zigbee2MQTT

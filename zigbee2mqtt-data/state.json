@@ -1,12 +1,28 @@
 {
     "0x2c1165fffe85f881": {
-        "color_mode": "xy",
+        "color_mode": "color_temp",
         "update": {
             "state": "idle",
             "installed_version": 268572245,
             "latest_version": 268572245
         },
         "update_available": false,
-        "state": "OFF"
+        "state": "OFF",
+        "color": {
+            "x": 0.5056,
+            "y": 0.4152
+        },
+        "color_temp_startup": 65535,
+        "color_temp": 454,
+        "color_options": {},
+        "linkquality": 18
+    },
+    "0xa4c1386153591ed2": {
+        "color_mode": "color_temp",
+        "state": "OFF",
+        "brightness": 929,
+        "color_temp": 370,
+        "do_not_disturb": false,
+        "linkquality": 21
     }
 }

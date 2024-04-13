@@ -42,3 +42,13 @@ info  2024-04-10 23:17:27: MQTT publish: topic 'zigbee2mqtt/LightLoungeStripligh
 info  2024-04-10 23:17:27: Zigbee2MQTT started!
 info  2024-04-10 23:18:43: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload '{"color":{"x":0.5056,"y":0.4152},"color_mode":"color_temp","color_options":{},"color_temp":454,"color_temp_startup":65535,"linkquality":7,"power_on_behavior":null,"state":"ON","update":{"installed_version":268572245,"latest_version":268572245,"state":"idle"},"update_available":false}'
 info  2024-04-10 23:18:45: MQTT publish: topic 'zigbee2mqtt/LightPatio', payload '{"color":{"x":0.5056,"y":0.4152},"color_mode":"color_temp","color_options":{},"color_temp":454,"color_temp_startup":65535,"linkquality":7,"power_on_behavior":null,"state":"OFF","update":{"installed_version":268572245,"latest_version":268572245,"state":"idle"},"update_available":false}'
+info  2024-04-10 23:49:49: Loaded  MyExampleExtension1712785754482
+info  2024-04-10 23:49:49: MQTT publish: topic 'zigbee2mqtt/example/extension', payload 'hello from MyExampleExtension1712785754482'
+info  2024-04-10 23:49:49: Extension example-user-extension1712785754482.js loaded
+info  2024-04-10 23:49:49: MQTT publish: topic 'zigbee2mqtt/bridge/response/extension/save', payload '{"data":{},"status":"ok","transaction":"3hm8o-1"}'
+info  2024-04-10 23:50:22: Start Touchlink scan
+info  2024-04-10 23:50:34: Finished Touchlink scan
+info  2024-04-10 23:50:34: MQTT publish: topic 'zigbee2mqtt/bridge/response/touchlink/scan', payload '{"data":{"found":[]},"status":"ok","transaction":"3hm8o-2"}'
+info  2024-04-10 23:54:33: MQTT publish: topic 'zigbee2mqtt/bridge/state', payload '{"state":"offline"}'
+info  2024-04-10 23:54:33: Disconnecting from MQTT server
+info  2024-04-10 23:54:33: Stopping zigbee-herdsman...

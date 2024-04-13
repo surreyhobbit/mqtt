@@ -36,8 +36,45 @@ device_options:
   legacy: false
 devices:
   '0x2c1165fffe85f881':
-    friendly_name: LightPatio
+    friendly_name: light_patio_lindby
     description: IKEA Trader bulb on Patio, reset by 7 x off/on cycles
   '0xa4c1386153591ed2':
-    friendly_name: LightLoungeStriplight
+    friendly_name: light_lounge_strip
     description: the miboxer strip light in the huge, press button to reset
+  '0x04cd15fffe112aa6':
+    friendly_name: light_sauna_strip
+  '0x001788010dcffd69':
+    friendly_name: switch_hue_tap
+  '0x00158d00057f908c':
+    friendly_name: light_office_ceiling
+  '0x00158d0006b3d0ae':
+    friendly_name: light_garden_palmtree_1
+  '0x00158d0006b3d082':
+    friendly_name: light_garden_palmtree_2
+  '0x00158d0007d1db22':
+    friendly_name: sensor_garage_door
+  '0x0017880109184aea':
+    friendly_name: sensor_motion_1
+  '0xb4e3f9fffe67d060':
+    friendly_name: switch_tradfri_1
+  '0x00124b0023a196f1':
+    friendly_name: switch_garage_door
+  '0xa4c1381f3fa3aebc':
+    friendly_name: light_sauna_bulb
+    description: >-
+      reset cycle, start with off, then 1 one sec, off 6 secs (3 times), 4th
+      time on for 12 secs, off 6 secs, 5th time on 12 secs, off 6 secs, then on
+      and wait - reset
+availability: true
+groups:
+  '0':
+    friendly_name: lounge_light
+  '1':
+    friendly_name: my_loung_lights
+    devices:
+      - 0xa4c1386153591ed2/1
+  '2':
+    friendly_name: garden_palm_tree
+    devices:
+      - 0x00158d0006b3d0ae/1
+      - 0x00158d0006b3d082/1
